@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Image Slider</title>
+</head>
+<body>
+
+    <h1>Explore Beautiful Places</h1>
+    <p>Discover the beauty of nature.</p>
+
+    <div class="slider">
+
+    <div class="slide">
+        <img
+            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1000"
+            alt="Beautiful mountains"
+            width="500">
+        <h2>Mountain Adventure</h2>
+    </div>
+
+    <div class="slide">
+        <img
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000"
+            alt="Beautiful beach"
+            width="500">
+        <h2>Relaxing Beach</h2>
+    </div>
+
+    <div class="slide">
+        <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1000"
+            alt="Beautiful lake and mountains"
+            width="500" >
+        <h2>Nature Escape</h2>
+    </div>
+
+    <div class="buttons">
+        <button 
+        onclick="changeSlide(-1)"> Previous</button>
+        <button onclick="changeSlide(1)">Next</button>
+    <div class="dots">
+    <button onclick="goToSlide(0)">●</button>
+    <button onclick="goToSlide(1)">●</button>
+    <button onclick="goToSlide(2)">●</button>
+</div>
+    </div>
+
+</div>
+<link rel="stylesheet"href="style.css">
+<script src="script.js"></script>
